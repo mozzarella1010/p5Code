@@ -1,4 +1,4 @@
-let url = 'https://io.adafruit.com/api/v2/tjrghkdud/feeds/servo/data';
+let url = '';
 
 var data = 0;
 
@@ -23,7 +23,7 @@ function draw() {
 function sendData(turnOn) {
     let postData = {
         "value": turnOn,
-        "X-AIO-Key": "aio_tivz05uXZsrjO02G6eOgthvVTFO8"
+        "X-AIO-Key": ""
     };
     httpPost(url, 'json', postData, function (result) {
         console.log(result);
