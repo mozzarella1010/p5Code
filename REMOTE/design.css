@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #252627;
+}
+
+.reactions {
+    align-items: center;
+    display: grid;
+}
+
+.wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 3vh 10vw;
+    grid-gap: 20vw;
+    align-content: center;
+
+}
+
+button {
+    font-size: 1em;
+    width: 15%;
+    margin-left: 50px;
+    padding: 13px 0;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-style: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn1 {
+    background-color: #ffa700;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: white;
+    overflow: hidden;
+    color: #ffa700;
+    border-radius: 40px;
+}
+
+.btn2 {
+    background-color: #6200ff;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn2:hover {
+    background-color: white;
+    overflow: hidden;
+    color: #6200ff;
+    border-radius: 40px;
+}
+
+
+.btn3 {
+    background-color: #ff3b3b;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn3:hover {
+    background-color: white;
+    overflow: hidden;
+    color: #ff3b3b;
+    border-radius: 40px;
+}
+
+.btn4 {
+    background: linear-gradient(145deg, #202020, #272727);
+    box-shadow: 14px 14px 27px #1c1c1c,
+        -14px -14px 27px #2c2c2c;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn4:hover {
+    background-color: white;
+    overflow: hidden;
+    color: white;
+    ;
+    border-radius: 40px;
+}
+
+.btn5 {
+    background-color: #0093ff;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn5:hover {
+    background-color: white;
+    overflow: hidden;
+    color: #0093ff;
+    border-radius: 40px;
+}
